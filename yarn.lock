@@ -892,6 +892,14 @@
   resolved "https://hpswapps.pkgs.visualstudio.com/PSSW_myHP/_packaging/hpaf@Local/npm/registry/@react-native/polyfills/-/polyfills-1.0.0.tgz#05bb0031533598f9458cf65a502b8df0eecae780"
   integrity sha1-BbsAMVM1mPlFjPZaUCuN8O7K54A=
 
+"@react-native/virtualized-lists@^0.72.4":
+  version "0.72.5"
+  resolved "https://hpswapps.pkgs.visualstudio.com/PSSW_myHP/_packaging/hpaf@Local/npm/registry/@react-native/virtualized-lists/-/virtualized-lists-0.72.5.tgz#a7b261357ec7e0e5aa97a24d4acab1d903811e09"
+  integrity sha1-p7JhNX7H4OWql6JNSsqx2QOBHgk=
+  dependencies:
+    invariant "^2.2.4"
+    nullthrows "^1.1.1"
+
 "@sideway/address@^4.1.3":
   version "4.1.4"
   resolved "https://hpswapps.pkgs.visualstudio.com/PSSW_myHP/_packaging/hpaf@Local/npm/registry/@sideway/address/-/address-4.1.4.tgz#03dccebc6ea47fdc226f7d3d1ad512955d4783f0"
@@ -908,6 +916,11 @@
   version "2.0.0"
   resolved "https://hpswapps.pkgs.visualstudio.com/PSSW_myHP/_packaging/hpaf@Local/npm/registry/@sideway/pinpoint/-/pinpoint-2.0.0.tgz#cff8ffadc372ad29fd3f78277aeb29e632cc70df"
   integrity sha1-z/j/rcNyrSn9P3gneusp5jLMcN8=
+
+"@types/base-64@^1.0.0":
+  version "1.0.0"
+  resolved "https://hpswapps.pkgs.visualstudio.com/PSSW_myHP/_packaging/hpaf@Local/npm/registry/@types/base-64/-/base-64-1.0.0.tgz#de9c6070ea457fbd65a1b5ebf13976b3ac0bdad0"
+  integrity sha1-3pxgcOpFf71lobXr8Tl2s6wL2tA=
 
 "@types/graceful-fs@^4.1.2":
   version "4.1.6"
@@ -939,6 +952,38 @@
   version "20.3.1"
   resolved "https://hpswapps.pkgs.visualstudio.com/PSSW_myHP/_packaging/hpaf@Local/npm/registry/@types/node/-/node-20.3.1.tgz#e8a83f1aa8b649377bb1fb5d7bac5cb90e784dfe"
   integrity sha1-6Kg/Gqi2STd7sftde6xcuQ54Tf4=
+
+"@types/prop-types@*":
+  version "15.7.5"
+  resolved "https://hpswapps.pkgs.visualstudio.com/PSSW_myHP/_packaging/hpaf@Local/npm/registry/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
+  integrity sha1-XxnSuFqY6VWANvajysyIGUIPBc8=
+
+"@types/react-native@^0.72.2":
+  version "0.72.2"
+  resolved "https://hpswapps.pkgs.visualstudio.com/PSSW_myHP/_packaging/hpaf@Local/npm/registry/@types/react-native/-/react-native-0.72.2.tgz#27c931a899c555b28e20cdd12e570b017808de96"
+  integrity sha1-J8kxqJnFVbKOIM3RLlcLAXgI3pY=
+  dependencies:
+    "@react-native/virtualized-lists" "^0.72.4"
+    "@types/react" "*"
+
+"@types/react@*":
+  version "18.2.12"
+  resolved "https://hpswapps.pkgs.visualstudio.com/PSSW_myHP/_packaging/hpaf@Local/npm/registry/@types/react/-/react-18.2.12.tgz#95d584338610b78bb9ba0415e3180fb03debdf97"
+  integrity sha1-ldWEM4YQt4u5ugQV4xgPsD3r35c=
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/scheduler@*":
+  version "0.16.3"
+  resolved "https://hpswapps.pkgs.visualstudio.com/PSSW_myHP/_packaging/hpaf@Local/npm/registry/@types/scheduler/-/scheduler-0.16.3.tgz#cef09e3ec9af1d63d2a6cc5b383a737e24e6dcf5"
+  integrity sha1-zvCePsmvHWPSpsxbODpzfiTm3PU=
+
+"@types/utf8@^3.0.1":
+  version "3.0.1"
+  resolved "https://hpswapps.pkgs.visualstudio.com/PSSW_myHP/_packaging/hpaf@Local/npm/registry/@types/utf8/-/utf8-3.0.1.tgz#bf081663d4fff05ee63b41f377a35f8b189f7e5b"
+  integrity sha1-vwgWY9T/8F7mO0Hzd6Nfixiffls=
 
 "@types/yargs-parser@*":
   version "21.0.0"
@@ -1573,6 +1618,11 @@ cross-spawn@^6.0.0:
     semver "^5.5.0"
     shebang-command "^1.2.0"
     which "^1.2.9"
+
+csstype@^3.0.2:
+  version "3.1.2"
+  resolved "https://hpswapps.pkgs.visualstudio.com/PSSW_myHP/_packaging/hpaf@Local/npm/registry/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
+  integrity sha1-HUv51XLxHBQDHwQ24cELwfVx9Qs=
 
 dayjs@^1.8.15:
   version "1.11.8"

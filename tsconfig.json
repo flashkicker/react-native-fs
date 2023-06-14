@@ -1,24 +1,20 @@
 {
-  "include": ["src", "types"],
+  "$schema": "http://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "strict": false,
-    "moduleResolution": "node",
-    "module": "esnext",
-    "target": "esnext",
-    "lib": ["esnext"],
-    "rootDir": "src",
-    "outDir": "dist",
-    "importHelpers": true,
+    "outDir": "lib",
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
     "declaration": true,
     "sourceMap": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "jsx": "react",
+    "declarationMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true
-  }
+    "types": ["node"],
+    "module": "commonjs",
+    "target": "es2017",
+    "lib": ["es2017", "DOM", "ES2018"],
+    "skipLibCheck": true
+  },
+  "include": ["src", "types"]
 }
