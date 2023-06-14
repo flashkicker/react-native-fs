@@ -1,8 +1,16 @@
 {
   "name": "react-native-fs",
-  "version": "2.20.0",
+  "version": "2.18.0",
   "description": "Native filesystem access for react-native",
-  "main": "FS.common.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
   "typings": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,6 +35,8 @@
   "license": "MIT",
   "dependencies": {
     "base-64": "^0.1.0",
+    "react-native": "^0.64.2",
+    "typescript": "^4.3.5",
     "utf8": "^3.0.0"
   },
   "devDependencies": {
@@ -35,12 +45,6 @@
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {
-    "react-native": "*",
     "react-native-windows": "*"
-  },
-  "peerDependenciesMeta": {
-    "react-native-windows": {
-      "optional": true
-    }
   }
 }
